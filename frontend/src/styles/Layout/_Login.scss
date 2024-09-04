@@ -1,0 +1,22 @@
+.login {
+  background-color: $black-glass;
+  width: 400px;
+  height: 70vh;
+  padding: 60px 20px;
+
+  box-shadow: 1px 1px 10px 3px $black-3;
+  border-radius: 10px;
+
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  &__content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@import "./Abstracts/Shared";
+@import "./Abstracts/Loader";
+
+@import "./Layout/Home";
+@import "./Layout/Login";
+@import "./Layout/ErrorPopup";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 4px !important;
+  height: 4px !important;
+
+  &-thumb {
+    background-color: $red;
+    border-radius: 4px;
+  }
+
+  &-track {
+    background-color: $white;
+  }
+}
+
+.login_main {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../assets/grid_lines.jpg);
+  background-repeat: repeat-x;
+  background-size: 304px 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.errors {
+  font-size: 14px;
+  color: $red;
+  text-align: center;
+  font-weight: 600;
+}
